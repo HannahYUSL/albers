@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  padding-top: 100px
+}
+
+section {
+  background-color: pink;
+  height: 600px;
+  width: 600px;
+  margin: 0 auto;
+
+  padding: 50px;
+}
+
+section > div {
+  background-color: wheat;
+  padding: 50px;
+}
+
+section > div > div{
+  background-color: violet;
+  padding: 50px;
+}
+
+section > div > div >div{
+  background-color: white;
+
+}
+
+div{
+  height: 100%;
+  width : 100%;
+}
